@@ -1,0 +1,565 @@
+/* 
+ font-family: "Prompt-Black" ;
+ font-family: "Poppins-Black" ;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important; 
+    
+}
+/* univeral_code */
+
+img{
+    max-width: 100% !important; 
+    height: auto;
+    object-fit: cover;
+}
+
+p{
+    font-family: "Poppins-Black" ;
+    line-height:  25px ;
+    font-size: 18px;
+    
+
+}
+.same_button{
+    padding: 18px;
+    font-family: "Poppins-Black" ;
+    line-height: 24px;
+    color: rgba(26, 25, 48, 1);
+    border-radius: 5px;
+}
+.fullvideo{
+    margin-top: 150px;
+    font-family: "Poppins-Black" ;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-bottom: 114px;
+}
+.fullvideo::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: orange;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.title{
+    font-family: "Poppins-Black" ;
+    font-size: 70px;
+    line-height: 77px;
+}
+.h3_title{
+    font-family: "Poppins-Black" ;
+    font-size: 44px;
+    line-height: 49px;
+    margin-bottom: 86px; 
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(231, 229, 255, 1);
+    display: inline-block;
+}
+.new{
+    padding: 4px 25px;
+    margin-bottom: 16px;
+    background-color: rgba(231, 229, 255, 1);
+    border-radius: 5px;
+    font-family: "Poppins-Black" ;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline-block;
+    
+
+}
+video{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* header_starting */
+header{
+    width: 100%;
+    
+
+} 
+/* ***** bac_starting ***** */
+header .bac{
+    width: 100%;
+    background: url('./img/header bac pic.png') no-repeat right;
+    position: relative;
+    z-index: 10;
+}
+header .navbars{
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 124px;
+}
+header .navbars ul li a{
+    font-family: "Prompt-Black" ;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(26, 25, 48, 1);
+}
+header .navbars .same_button{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.menushow li a::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    transform: translateX(100px);
+    visibility: hidden;
+}
+.menushow li a::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    transform: translateX(-100px);
+    visibility: hidden;
+}
+.menushow li a:hover::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    transform: translateX(0px);
+    visibility: inherit;
+    transition: all 1s ease-in-out;
+}
+.menushow li a:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    transform: translateX(0px);
+    visibility: inherit;
+    transition: all 1s ease-in-out;
+}
+header .header_title h1{
+    font-family: "Poppins-Black" ;
+    font-size: 80px;
+    line-height: 88px;
+    padding-bottom: 60px;
+}
+header .header_title p{
+    font-family: "Prompt-Black" ;
+    font-size: 30px;
+    line-height: 42px;
+    padding-bottom: 52px;
+}
+header .header_title .same_button{
+    background-color: rgba(98, 89, 234, 1);
+}
+header .header_title .icons{
+    margin-bottom: 60px;
+}
+header .header_title .icons a{
+    color: black;
+    margin-top: 10px;
+    
+}
+header .logos{
+    width: 100%;
+    background-color: rgba(231, 229, 255, 1);
+    padding: 73px 0px;
+    position: relative;
+    z-index: 1;
+    bottom: 30px;
+}
+/* section_starting */
+section {
+    width: 100%;
+}
+/* ***** numbers_starting ***** */
+section .numbers{
+    width: 100%;
+    background: url('./img/yashil uchburchak.png') no-repeat center / cover;
+    padding: 100px 0px 50px 0px;
+}
+section .numbers .box{
+    padding: 28px 0px 31px 0px;
+    border-top: 2px solid rgba(231, 229, 255, 1);
+}
+section .numbers .box .first h3 {
+    font-family: "Prompt-Black" ;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+section .numbers .box .second h2{
+    font-family: "Prompt-Black" ;
+    font-size: 80px;
+    line-height: 112px;
+
+}
+.none{
+    display: none;
+}
+/* ***** features_starting ***** */
+section .features{
+    width: 100%;
+    background: url('./img/cicles\ bac.png') no-repeat center / cover;
+    padding: 90px 0px 100px 0px;
+}
+section .features .same_button{
+    background-color: rgba(98, 89, 234, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+section .features .all{
+    margin-top: 167px;
+}
+section .features .all .texts{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-top: 44px;
+    padding-left: 50px;
+}
+section .features .all .texts .sbox .box i{
+    margin-right: 22px;
+}
+/* ***** vid_starting ***** */
+section .vid{
+    padding-top: 43px;
+    padding-bottom: 100px;
+}
+
+section .vid iframe{
+    width: 100%;
+}
+section .vid h3{
+    display: flex;
+    align-items: center;   
+}
+iframe{
+    margin: auto;
+}
+
+/* ***** technologies_starting ***** */
+section .technologies{
+    padding-top: 93px ;
+}
+
+section .technologies ,.reuse h4{
+    font-family: "Poppins-Black" ;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 53px;    
+}
+section .technologies ,.reuse .first{
+    margin-bottom: 19px;
+}
+section .technologies ,.reuse .second{
+    margin-bottom: 51px;
+}
+/* ***** reuse_starting ***** */
+section .reuse{
+    margin-bottom: 100px;
+}
+section .reuse .line{
+    margin-top: 25px;
+}
+/* ***** pirce_starting ***** */
+section .price{
+    position: relative;
+    padding-top: 89px;
+    padding-bottom: 100px;
+}
+section .price .title{
+    position: absolute;
+    top: 40px;
+    left: 10%;
+}
+section .price .line{
+    margin-top: 100px;
+}
+section .price .all .box{
+    padding: 45px 79px 64px 52px;
+    background-color: rgba(193, 193, 193, 0.3);
+}
+section .price .all .box .flex i{
+    margin-right: 24px;
+    margin-top: 3px;
+}
+section .price .all .box .buy h2{
+    font-family: "Prompt-Black" ;
+    font-size: 79px;
+    line-height: 88px;
+    color: rgba(45, 43, 92, 1);
+}
+section .price .all .box .buy p:nth-of-type(1) {
+    color: rgba(171, 170, 187, 1);
+    align-self: flex-end;
+}
+section .price .all .box  .buy .same_button{
+    background-color: rgba(98, 89, 234, 1);
+    color: black !important;
+    
+}
+/* ***** meet_starting ***** */
+section .meet {
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+section .meet a{
+    background-color: rgba(98, 89, 234, 1);
+}
+section .meet .two{
+    padding: 18px 36px;
+    font-family: "Poppins-Black" ;
+    line-height: 24px;
+    color: rgba(26, 25, 48, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+section .meet .carousel{
+    padding-top: 90px;
+}
+section .meet .carousel .carousel-indicators{
+    margin: 0%;
+}
+section .meet .carousel  .carousel-inner{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+section .meet .carousel  .carousel-inner .carousel-item .cards .name{
+    font-family: "Prompt-Black" ;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    
+}
+section .meet .carousel .carousel-control-prev-icon{
+    color: black !important;
+    background-color: black;
+    border-radius: 15px;
+} 
+section .meet .carousel .carousel-control-next-icon{
+    color: black !important;
+    background-color: black;
+    border-radius: 15px;
+} 
+section .carousel .carousel-control-next-icon{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+}
+section .carousel .carousel-control-next{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+    border-radius: 50%;
+}
+/* ***** frequenly_starting ***** */
+section .frequently{
+    width: 100%;
+    height: 500px;
+    background: url('./img/red circle.png') no-repeat right;
+}
+section .frequently .title{
+    padding-bottom: 160px;
+}
+section .frequently  .box{
+    padding: 33px 0px 48px 23px;
+}
+section .frequently  .box i{
+    margin-right: 45px;
+    font-size: 45px;
+    color: rgba(45, 43, 92, 1);
+}
+section .frequently .box .h3_title{
+    color: rgba(45, 43, 92, 1);
+}
+/* ***** press_starting ***** */
+section .press .same_button{
+     background-color: rgba(98, 89, 234, 1);
+ 
+}
+section .press .title{
+    margin-bottom: 51px;
+}
+.carousel-inner{
+    width: 70%;
+    margin: auto;
+}
+
+section .carousel .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50%;
+}
+/* footer_starting */
+footer{
+    width: 100%;
+    padding-top: 85px;
+    padding-bottom: 67px;
+    background: url('./img/footers\ orange\ same\ cirle.png') no-repeat right;
+    background-color: rgba(26, 25, 48, 1);
+}
+footer a img{
+    padding-bottom: 38px;
+}
+footer p:nth-of-type(1){
+    padding-bottom: 7px;
+}
+footer p:nth-of-type(2){
+    padding-bottom: 13px;
+}
+footer p:nth-of-type(3){
+    padding-bottom: 88px;
+}
+footer p{
+    color: rgba(251, 251, 255, 1);
+}
+footer p span{
+    color: rgba(98, 89, 234, 1);
+}
+footer .d-flex {
+    padding-top: 58px;
+    padding-bottom: 61px;
+    border-top: 1px solid rgba(251, 251, 255, 1);
+    border-bottom: 1px solid rgba(251, 251, 255, 1);
+}
+footer .d-flex  ul li{
+    padding-top: 9px;
+}
+footer .d-flex  ul li a{
+    color: rgba(251, 251, 255, 1);
+   
+}
+/* media_starting */
+/* md = 992-768 */
+@media  (max-width:991px) {
+    header .navbars ul li a {
+        font-family: "Prompt-Black";
+        font-size: 15px;
+        line-height: 25px;
+        color: rgba(26, 25, 48, 1);
+    }
+    .same_button {
+        padding: 17px 15px;
+    }
+    header .header_title h1 {
+        font-family: "Poppins-Black";
+        font-size: 63px;
+        line-height: 70px;
+        padding-bottom: 35px;
+    }
+    header .header_title p {
+        font-family: "Prompt-Black";
+        font-size: 26px;
+        line-height: 35px;
+        padding-bottom: 41px;
+    }
+    header .header_title .icons {
+        margin-bottom: 60px;
+        align-items: flex-end;
+    }
+    .fullvideo::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: orange;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    header .header_title p {
+        font-family: "Prompt-Black";
+        font-size: 21px;
+        line-height: 27px;
+        padding-bottom: 0px;
+    }
+    .same_button {
+        padding: 18px 18px;
+        display: inline-block;
+    }
+    .fullvideo{
+        padding-bottom: 0px;
+        margin-top: 30px;
+    }
+    section .price .all .box .buy .same_button{
+       padding: 10px;
+       
+       background-color: none;
+       color: none;
+       margin-left: 10px;
+        
+    }
+}
+/* sm = 767-576 */
+@media (max-width:767px) {
+    header .bac ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header .bac ul li{
+        border-bottom: 1px solid #000;
+    }
+    header .bac .navbars .img{
+        text-align: center;
+    }
+    header .bac .navbars .same_button{
+        display: none;
+    }
+    section .price{
+        display: none;
+    }
+    header .header_title h1 {
+    font-family: "Poppins-Black";
+    font-size: 36px;
+    line-height: 47px;
+    padding-bottom: 26px;
+    }
+    header .header_title p {
+        font-family: "Prompt-Black";
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 0px;
+    }
+    iframe{
+        height: 300px;
+    }
+    header .logos{
+        display: none;
+    }
+    section .numbers .box .second h2 {
+        font-family: "Prompt-Black";
+        font-size: 50px;
+        line-height: 74px;
+    }
+    section .press{
+        margin-top: 20px;
+    }
+    section .press .title ,.same_button{
+        display: none;
+    }
+}
+@media (max-width : 575.98px) {
+    .sm-none{
+        display: none;
+    }
+    .sm-block{
+        display: block;
+    }
+    .menushow{
+        text-align: center;
+        margin: auto;
+    }
+}
